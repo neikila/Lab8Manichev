@@ -3,7 +3,7 @@ switch n
     case 1
         ideal = @(t) - 2*exp(-t) - 3*exp(-t/6) + 5;
     case 2
-        ideal = @(t) exp(-t/5).*cos(t) + exp(-t/5).*sin(t);
+        ideal = @(t) exp(- t/5).*cos(t)+exp( - t/5).*sin(t);
     case 3
         ideal = @(t) cos(t);
     case 4
